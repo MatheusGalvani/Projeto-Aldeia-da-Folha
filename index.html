@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana do Zero ao Programador - Projeto Aldeia da Folha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Secular+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./src/css/reset.css">
+<link rel="stylesheet" href="./src/css/estilos.css">
+<link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <main class="personagens">
+        <div class="personagem selecionado">
+            <picture>
+                <source srcset="./src/imagens/naruto1.png" media="(min-width: 768px)">
+                <img src="./src/imagens/naruto-mobile.png" alt="Personagem Naruto">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Naruto Uzumaki</h2>
+                <p class="descricao">Naruto Uzumaki é um grande guerreiro que depois de lutar contra ninjas renegados viu uma oportunidade na programacao e decidiu entrar de cabeca na area e ser o novo CODEhokage</p>
+            </div>
+        </div>
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/sasuke.png" media="(min-width: 768px)">
+                <img src="./src/imagens/sasuke-mobile.png" alt="Personagem Sasuke Uchiha">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Sasuke Uchiha</h2>
+                <p class="descricao">Sasuke Uchiha é um ninja poderoso, que apos varias batalhas desafiadoras, decidiu abdicar- se de batalhas e codigos para dedicar seu tempo ao que realmente lhe interessa - VINGANCA!
+                </p>
+            </div>
+        </div>
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/sakura.png" media="(min-width: 768px)">
+                <img src="./src/imagens/sakura-mobile.png" alt="Personagem Sakura-Chan">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Sakura Haruno
+                </h2>
+                <p class="descricao">Sakura Haruno é uma ninja muito inteligente que apos dominar seu chakra, consegue curar e revitalizar qualquer tipo de codigo, se tornando um suporte a Naruto e Sasuke em sua jornada de programacao
+                </p>
+            </div>
+        </div>
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/kakashi.png" media="(min-width: 768px)">
+                <img src="./src/imagens/kakashi-mobile.png" alt="Personagem Hatake Kakashi ">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Kakashi Hatake
+                </h2>
+                <p class="descricao">Kakashi é um lider nato, com sua independencia e auto confianca ele consegue acompanhar e moldar o time 7 com maestria e fazer dos alunos os melhores programadores que ja existiram, nada passa batido do seu sharingan e ele faz questao de sempre manter a leitura em dia.
+                </p>
+            </div>
+        </div>
+    </main>
+    <ul class="botoes">
+        <li>
+        <button class="botao naruto1 selecionado">
+            <img src="./src/imagens/naruto-icone.png" alt="Ícone Naruto">
+        </button>
+        </li>
+        <li>
+            <button class="botao sasuke">
+                <img src="./src/imagens/sasuke-icone.png" alt="Ícone Sasuke">
+            </button>
+            </li>
+            <li>
+                <button class="botao sakura">
+                    <img src="./src/imagens/sakura-icone.png" alt="Ícone Sakura">
+                </button>
+                </li>
+                <li>
+                    <button class="botao Kakashi">
+                        <img src="./src/imagens/kakashi-icone.png" alt="Ícone Kakashi">
+                    </button>
+                    </li>
+    </ul>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
